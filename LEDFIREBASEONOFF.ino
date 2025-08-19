@@ -1,11 +1,11 @@
 #include <FirebaseESP8266.h>
 #include <ESP8266WiFi.h>
 //wifi credentials
-#define WIFI_SSID "MSB"
-#define WIFI_PASSWORD "onetwothreefour"
+#define WIFI_SSID "name of wifi"
+#define WIFI_PASSWORD "password"
  //Firebase credentials
-#define FIREBASE_HOST "https://led-on-and-off-e7761-default-rtdb.asia-southeast1.firebasedatabase.app/"   // Without "https://"
-#define FIREBASE_AUTH "AIzaSyC9ZL8fbri_3OlmnFKRBklpFNlJBIsqSBM"  
+#define FIREBASE_HOST "friebase  project link"   // Without "https://"
+#define FIREBASE_AUTH "Aut token in firebase"  
 // DHT setup
 #define LED_PIN 2 
 FirebaseData firebaseData;
